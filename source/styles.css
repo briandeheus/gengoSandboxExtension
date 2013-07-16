@@ -1,0 +1,82 @@
+.powerModal {
+	
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.8);
+	z-index: 1000;
+	position: fixed;
+	top: 0px;
+	display: none;
+	
+}
+
+.powerModal .loader {
+
+	text-align: center;
+	width: 250;
+	height: 60px;
+	top: 50%;
+	left: 50%;
+	margin-top: -30px;
+	margin-left: -125px;
+	position: absolute;
+	
+}
+
+.powerModal .loadingAnimation {
+	
+	height: 16px;
+	width: 128px;
+	display: inline-block;
+	margin: 10px 0px;
+	background-image: url("http://i.imgur.com/FmKlMHh.gif");
+	
+}
+
+.powerModal .loadingText {
+
+	color: white;
+
+}
+
+.powerCheckbox {
+
+	width: 130px;
+	display: inline-block;
+	background-color: white;
+	border-radius: 5px;
+	text-align: center;
+	margin: 4px 0px;
+	height: 42px;
+	line-height: 42px;
+	color: #FF6600;
+	-webkit-user-select: none;
+	cursor:pointer;
+	 
+}
+
+.powerCheckbox:hover {
+	
+	background-color: #FF6600;
+	color: #FFF;
+	
+}
+
+.order input[type="checkbox"] {
+
+    display:none;
+	
+}
+
+.order input[type="checkbox"]:checked  + label {
+	
+	background-color: #FF6600;
+	color: #FFF;
+	
+}
+
+.bulkActionOptions .button_medium {
+
+	margin: 8px 0px;
+
+}
